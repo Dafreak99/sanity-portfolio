@@ -57,5 +57,15 @@ export const projectType = defineType({
       type: 'array',
       of: [{type: 'block'}],
     }),
+    defineField({
+      name: 'images',
+      type: 'array',
+      of: [{type: 'image'}],
+    }),
+    defineField({
+      name: 'videos',
+      type: 'array',
+      of: [{type: 'file'}],
+    }),
   ],
 })
